@@ -1,0 +1,780 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+/*
+  author:Adnan Habib;
+  mail:mdhabib7679@gmail.com;
+
+*/
+
+/*
+
+====Index====
+1.Header
+2.Fusce at       
+3. Symu
+4. Form
+5.OUR WORKS
+6.john smith
+7.Our Team
+8.Say Hello 
+9.footer
+
+*/
+/*---------------------------Global css--------------------------*/
+h3{
+	font-size: 35px;
+	text-align: center;
+	margin-top: 70px;
+	color: black;
+	font-weight:700;
+}
+h3 b{
+	color: #f7600e;
+}
+h5{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 85px;
+	color: #161616;
+
+
+}
+/*-------------------------hero section-----------------------------*/
+.template{
+	background: #333333;
+}
+
+.hero {
+   
+    background: url(../img2/adnan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center top;
+}
+
+h1{
+	font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-top: 125px;
+}
+h6{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    font-weight: 300;
+
+}
+.custom-button {
+    border-radius: 7px;
+    margin-right: 3%;
+    margin-left: 25%;
+    color: white;
+    background: #f7600e;
+    padding: 15px 64px;
+    border: none;
+    font-size: 13px;
+    margin-bottom: 205px;
+
+}
+.custom-button2 {
+    color: white;
+    background: transparent;
+    padding: 10px 40px;
+    border-radius: 13px;
+    font-size: 16px;
+}
+/*---------------------template section-------------------------------*/
+.templatecolor {
+    background: #ffffff;
+    margin-top: -160px;
+}
+.row.templatecolor-content{
+	background: white;
+}
+img.img-fluid.pic {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    background: gainsboro;
+    margin-top: -157px;
+    padding: 45px 49px;
+}
+.templatecolor-content h2 {
+    font-size: 55px;
+    color: #a42233;
+    margin-top: 69px;
+}
+.templatecolor-content p {
+    font-size: 25px;
+    text-align: center;
+    color: #b9bcd1;
+}
+.Symu-btn {
+    padding: 24px 89px;
+    margin: 0 auto;
+    display: block;
+    color: white;
+    background: #eb304d;
+    margin-top: 58px;
+    margin-bottom: 58px;
+}
+/*-----------------Form-0ne-----------------------------------*/
+
+.form-one{
+	background: url(../img2/back2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: center top;
+	padding: 72px 0px;
+}
+.form-control {
+    color: #292a2a;
+    padding: 26px;
+}
+.from-btn {
+    background: #f7600e;
+    padding: 13px 60px;
+}
+
+/*-----------------------------OUR WORKS section-----------------------*/
+
+ .WORKS-main {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.WORKSmain {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.works-content {
+    background: #eb6013ba;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: 0.8s ease-in-out;
+}
+.works-content h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 70px;
+}
+.works-content h6 {
+    font-size: 14px;
+    text-align: center;
+    margin: 0px 13px;
+    margin-bottom: 56px;
+}
+.image-hover{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.image-hover:hover .works-content{
+	right: 0;
+}
+button.hover-btn {
+    padding: 10px 38px;
+    border-radius: 13px;
+    border: none;
+}
+button.main-btn {
+    margin: 0 auto;
+    display: block;
+    padding: 10px 28px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*------------------------john smith section---------------------------*/
+
+.john{
+	background: url(../img2/back3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: center top;
+	padding: 68px 0px;
+}
+.john-image{
+	text-align: center;: 
+}
+.john-content h4 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 300;
+}
+.john-content p {
+    color: white;
+    text-align: center;
+    margin-top: 41px;
+    font-weight: 300;
+}
+/*--------------------Our Team section---------------------------*/
+.team-content h4 {
+    color: #9da1a5;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}				
+.team-content h6 {
+    color: #9da1a5;
+    font-size: 13px;
+    text-align: center;
+}
+.team-content ul{
+	list-style: none;
+	margin-right: 52px;
+	text-align: center;
+}
+.team-content ul li {
+    display: inline-block;
+    padding: 0px 5px;
+    background: darkgrey;
+    border-radius: 61px;
+    color: white;
+    margin: 0px 5px;
+}
+.img-fluid.teamimg {
+    margin-top: -24px;
+ 	text-align: center; 
+}
+.team-content-one h4{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 20px;
+
+}
+.team-content-one ul{
+	list-style: none;
+	margin-right: 52px;
+	text-align: center;
+}	
+.team-content-one ul li{
+	display: inline-block;
+	display: inline-block;
+    padding: 0px 5px;
+    border-radius: 61px;
+    color: white;
+    margin: 0px 5px;
+}	
+i.fa.fa-facebook.facebook {
+    background: blue;
+    padding: 6px 9px;
+    border-radius: 37px;
+    font-size: 14px;
+}
+i.fa.fa-twitter.twitter {
+    background: aqua;
+    padding: 8px 9px;
+    border-radius: 27px;
+    font-size: 13px;
+}
+i.fa.fa-google-plus.google {
+    background: red;
+    padding: 8px 9px;
+    border-radius: 27px;
+    font-size: 13px;
+}
+.team-content-one h6{
+    color: black;
+    font-size: 13px;
+}
+
+/*-------------------------------form section two-------------------------------------*/
+.form-two{
+	background: url(../img2/back4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: center top;
+}
+.form-control2 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+textarea {
+    font-size: 13px;
+    width: 100%;
+    padding: 12px 12px 125px;
+    border-radius: 10px;
+}
+.form-two-btn {
+    font-size: 16px;
+    padding: 8px 40px;
+    background: #f7600e;
+    margin-top: 27px;
+	margin-bottom: 95px;
+}
+.icon7 {
+    color: white;
+    text-align: end;
+    margin-top: 18px;
+}
+.icon7 ul {
+    list-style: none;
+}
+
+.icon7 ul li {
+    display: inline-block;
+    padding: 5px;
+}
+.icon7 ul li i{
+
+}
+.icon1 {
+    background: blue;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.icon2 {
+    background: aqua;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.icon3 {
+    background:#ff3921;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.icon4 {
+    background: #ff72a5;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.icon5 {
+    background: #009bd5;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+/*-------------------------------footer section two-------------------------------------*/
+
+.footer{
+	background: #3b434c;
+	padding: 35px;
+
+
+}
+.footer-content h6{
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 0px;
+}
+.footer-content2 h6{
+	font-size: 16px;
+	text-align: right;
+	margin-bottom: 0px;
+}
+
+
+
+
+/*-------------------media Query---------------------*/
+/*----------------mobile device----------------------*/
+@media (min-width: 320px) and (max-width: 576px){
+	
+	/*hero section*/
+i.fa.fa-bars {
+    margin-left: 12px;
+}
+button.navbar-toggler {
+    color: white;
+    font-size: 18px;
+}
+	h1 {
+    font-size: 30px;
+    margin-top: 80px;
+}
+h6 {
+    font-size: 12px;
+    margin-bottom: 13px;
+}
+.custom-button {
+    border-radius: 4px;
+    margin-left: 24%;
+    padding: 3px 13px;
+    font-size: 14px;
+}
+.custom-button2 {
+    padding: 7px 11px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+/* Symu section */
+	img.img-fluid.pic {
+    background: #dcdcdc94;
+    margin-top: -97px;
+    padding: 15px 11px;
+    height: 143%
+   margin-right: 149px;
+
+}
+.templatecolor-content h2 {
+    font-size: 23px;
+    margin-top: 16px;
+    text-align: center;
+}
+.templatecolor-content p {
+    font-size: 15px;
+}
+.Symu-btn {
+    padding: 15px 60px;
+    margin-top: 15px;
+    margin-bottom: 21px;
+}
+	/*-	form-one section--	*/
+
+.Form-0ne {
+    padding: 26px 0px;
+}
+.form-control {
+    color: #292a2a;
+    padding: 18px;
+    font-size: 12px;
+    margin-bottom: 20px;
+
+}
+.from-btn {
+    background: #f7600e;
+    padding: 7px 13px;
+    margin: auto;
+    display: block;
+}
+
+/* john mith*/
+	.john {
+    padding: 25px 0px;
+}
+ .john-content h4 {
+    font-size: 13px;
+}
+.john-content p {
+    margin-top: 8px;
+}
+/*Our Team section*/
+
+.row.team {
+    text-align: center;
+}
+.img-fluid.teamimg {
+    margin-top: 0px;
+    text-align: center;
+}
+
+/* Form two section*/
+	h5 {
+    font-size: 13px;
+    margin-bottom: 28px;
+}
+textarea {
+    padding: 4px 7px 18px;
+}
+.form-two-btn {
+    font-size: 12px;
+    padding: 3px 15px;
+    background: #f7600e;
+    margin-top: 27px;
+}
+	.icon7 {
+    margin-top: -124px;
+}
+.icon1 {
+    padding: 5px 5px;
+}
+.icon2 {
+    padding: 5px 5px;
+}
+.icon3 {
+    padding: 5px 5px
+}
+.icon4 {
+    padding: 5px 5px;
+}
+.icon5 {
+    padding: 5px 5px;
+}
+/*footer section*/
+.footer-content h6 {
+    font-size: 13px;
+}
+.footer-content2 h6 {
+    text-align: left;
+}
+}
+
+
+ /*----------------------------small device-------------------------------*/
+
+@media (min-width: 576.01px) and (max-width:768px){
+	
+	/*hero section*/
+	i.fa.fa-bars {
+    margin-left: 12px;
+}
+button.navbar-toggler {
+    color: white;
+    font-size: 18px;
+}
+	h1 {
+    font-size: 44px;
+    margin-top: 100px;
+}
+h6 {
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+.custom-button {
+    border-radius: 7px;
+    margin-right: 4%;
+    margin-left: 12%;
+    padding: 12px 64px;
+}
+/* Symu section */
+	img.img-fluid.pic {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    background: gainsboro;
+    margin-top: -135px;
+    padding: 45px 49px;
+}
+	.templatecolor-content h2 {
+    font-size: 28px;
+    color: #a42233;
+    margin-top: 32px;
+}
+.templatecolor-content p {
+    font-size: 15px;
+}
+	.Symu-btn {
+    padding: 19px 57px;
+    margin-top: 18px;
+    margin-bottom: 28px;
+}
+		/*Our Team section*/
+	.img-fluid.teamimg {
+    margin-top: 0px;
+}
+	.team-content h4 {
+    font-size: 23px;
+}
+
+.col-md-3.team-content {
+    text-align: center;
+}
+.img-fluid.teamimg {
+    margin-top: 0px;
+    margin-left: 124px;
+}
+
+	/* form-two section*/
+	h5 {
+    margin-bottom: 36px;
+}
+textarea {
+    padding: 4px 7px 73px;
+}
+	.icon7 {
+    margin-top: -136px;
+}
+ 
+
+	/*footer section*/
+	
+}
+/*----------------------------medium device-----------------------------*/
+
+@media (min-width: 768.01px) and (max-width: 992px){
+	
+	/*hero sectiom*/
+	i.fa.fa-bars {
+    margin-left: 12px;
+}
+button.navbar-toggler {
+    color: white;
+    font-size: 18px;
+}
+h1 {
+    font-size: 30px;
+    margin-top: 135px;
+}
+h6 {
+    font-size: 14px;
+    margin-bottom: 29px;
+}
+
+	.custom-button {
+    margin-left: 6%;
+}
+/* Symu section */
+	img.img-fluid.pic {
+    margin-top: -147px;
+    padding: 23px 32px;
+    margin-right: 231px;
+}
+	.templatecolor-content h2 {
+    font-size: 33px;
+    color: #a42233;
+    margin-top: 32px;
+}
+	
+
+/*	Our works section	*/
+.works-content h4 {
+    font-size: 19px;
+    margin-top: 28px;
+}
+	.works-content h6 {
+    font-size: 11px;
+    text-align: center;
+    margin: 0px 0px;
+    margin-bottom: 26px;
+}
+
+
+/*Our Team section*/
+.team-content h4 {
+    font-size: 23px;
+}	
+.team-content-one ul {
+    margin-right: 31px;
+}
+.img-fluid.teamimg {
+    margin-top: 0px;
+    text-align: center;
+}
+.team-content ul li {
+    padding: 0px 4px;
+    margin: 0px 1px;
+    font-size: 12px
+}
+.team-content ul {
+    margin-right: 35px;
+}
+.team-content-one ul li {
+    padding: 0px 2px;
+    margin: 0px 1px;
+}
+ .team-content-one ul {
+    margin-right: -5px;
+    margin-left: -20px;
+}
+i.fa.fa-google-plus.google {
+    
+    padding: 5px 5px;
+    font-size: 12px;
+}
+i.fa.fa-twitter.twitter {
+    padding: 5px 5px;
+    font-size: 12px;
+}
+i.fa.fa-facebook.facebook {
+    padding: 5px 5px;
+    font-size: 12px;
+}
+
+/*   form two section  */
+	.icon1 {
+    padding: 10px 10px;
+}
+.icon2 {
+    padding: 8px 8px;
+}
+.icon3 {
+    padding: 8px 8px
+}
+.icon4 {
+    padding: 8px 8px;
+}
+.icon5 {
+    padding: 8px 8px;
+}
+
+
+
+	
+} 
+/*-------------------------------large device-----------------------------------*/
+
+@media (min-width: 992.01px) and (max-width: 1140px){
+	/*navigation section*/
+
+	i.fa.fa-bars {
+    margin-left: 12px;
+}
+button.navbar-toggler {
+    color: white;
+    font-size: 18px;
+}
+	/*hero section*/
+	h1 {
+    font-size: 54px;
+    margin-top: 195px;
+}
+	h6 {
+    font-size: 18px;
+}
+
+	
+	/*  symu section   */
+	.templatecolor-content h2 {
+    font-size: 45px;
+    color: #a42233;
+    margin-top: 69px;
+}
+/* Our works section   */
+.works-content h4 {
+  
+    font-size: 19px;
+    margin-top: 28px;
+}
+
+/* Our Team section   */
+i.fa.fa-google-plus.google {
+    
+    padding: 5px 5px;
+    font-size: 12px;
+}
+i.fa.fa-twitter.twitter {
+    padding: 5px 5px;
+    font-size: 12px;
+}
+i.fa.fa-facebook.facebook {
+    padding: 5px 5px;
+    font-size: 12px;
+}
+.team-content-one ul li {
+    padding: 0px 2px;
+    margin: 0px 1px;
+}
+ .team-content-one ul {
+    margin-right: -5px;
+    margin-left: -20px;
+
+}
+.img-fluid.teamimg {
+    margin-top: 0px;
+    text-align: center;
+}
+
+/*  section   */
+
+
+
+
+}
